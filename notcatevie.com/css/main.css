@@ -76,3 +76,4 @@ a, a.disabled:hover, a:disabled:hover { color: #007bff; }
 .footer-p { margin-top: 0.1%; margin-bottom: -0.1%; }
 .evie-cat { margin-right: 2%; margin-left: -3%; color: #f5f6fa; }
 body { background-color: #f5f6fa !important; }
+.offline-ui .offline-ui-up { background-color: #222222 !important; }
