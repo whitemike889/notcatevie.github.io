@@ -76,4 +76,8 @@ a, a.disabled:hover, a:disabled:hover { color: #007bff; }
 .footer-p { margin-top: 0.1%; margin-bottom: -0.1%; }
 .evie-cat { margin-right: 2%; margin-left: -3%; color: #f5f6fa; }
 body { background-color: #f5f6fa !important; }
-.offline-ui { background-color: #222222; }
+.corner-ribbon{ width: 400px; background: #e43; position: absolute; top: 25px; left: -50px; text-align: center; line-height: 50px; letter-spacing: 1px; color: #f0f0f0; transform: rotate(-45deg); -webkit-transform: rotate(-45deg);}
+.corner-ribbon.sticky{ position: fixed; }
+.corner-ribbon.shadow{ box-shadow: 0 0 3px rgba(0,0,0,.3);}
+.corner-ribbon.bottom-right{  top: auto;  right: -150px;  bottom: 30px;  left: auto;  transform: rotate(-45deg);  -webkit-transform: rotate(-45deg);}
+.corner-ribbon.black{background: #222222;}
